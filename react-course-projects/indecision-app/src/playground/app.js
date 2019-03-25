@@ -128,7 +128,6 @@ const Option = props => {
     </div>
   );
 };
-
 class AddOption extends React.Component {
   constructor(props) {
     super(props);
@@ -165,4 +164,5 @@ class AddOption extends React.Component {
     );
   }
 }
+
 ReactDOM.render(<IndecisionApp options={[]} />, document.getElementById("app"));
