@@ -156,7 +156,7 @@ const expenseOne = store.dispatch(
   addExpense({ description: "rent", amount: 22, createAt: -22000 })
 );
 const expenseTwo = store.dispatch(
-  addExpense({ description: "Coffee", amount: 100, createAt: -1000 })
+  addExpense({ description: "Coffee", amount: 22, createAt: -1000 })
 );
 // store.dispatch(setTextFilter("rent"));
 // store.dispatch(removeExpense({ id: expenseOne.expense.id }));
